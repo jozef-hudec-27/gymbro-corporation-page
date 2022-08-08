@@ -5,8 +5,9 @@ body {
 }
 
 a {
-    color: white;
+    color: #e5e7eb;
     text-decoration: none;
+    font-size: 18px;
 }
 
 .icon {
@@ -46,6 +47,7 @@ a {
     font-size: 24px;
     font-weight: extra-bold;
     margin-bottom: 32px;
+    color: #1f2937;
 }
 
 .product-container {
@@ -65,7 +67,7 @@ a {
 
 .bottom-container {
     display: flex;
-    padding: 32px;
+    padding: 48px;
     color: white;
 }
 
@@ -118,10 +120,20 @@ button {
 
 }
 
+.header h2 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
 .main {
     display: flex;
     width: 100%;
     justify-content: space-between;
+}
+
+.main h1 {
+    font-size: 48px;
+    color: #f9faf8;
 }
 
 .main img {
@@ -130,11 +142,12 @@ button {
 
 .logo {
     background-color: white;
-    border-radius: 50%;
+    border-radius: 100px;
     padding: 32px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .logo p {
