@@ -37,3 +37,11 @@ body {
     align-items: center;
     width: 88px;
 }
+
+.quote-container {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-end;
+    padding: 84px 256px;
+}
