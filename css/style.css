@@ -45,3 +45,34 @@ body {
     align-items: flex-end;
     padding: 84px 256px;
 }
+
+.bottom-container {
+    display: flex;
+    padding: 32px;
+    color: white;
+}
+
+.newsletter-message {
+    background-color: #3882f6;
+    margin: 0 auto;
+    display: flex;
+    padding: 16px 96px;
+    align-items: center;
+    column-gap: 96px;
+    border-radius: 8px;
+}
+
+.signup-btn {
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white;
+    padding: 8px 24px;
+    border-radius: 8px;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    color: white;
+    justify-content: center;
+}
