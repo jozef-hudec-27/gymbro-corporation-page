@@ -34,7 +34,7 @@
     </div>
 
     <div class="content-container">
-        <h3 style="font-size: 24px; font-weight: extra-bold;">What can you find on our e-shop</h3>
+        <h3>What can you find on our e-shop</h3>
 
         <div class="icons">
             <div class="product-container">
@@ -68,7 +68,7 @@
         <div class="newsletter-message">
             <div>
                 <p style="font-weight: bold; font-size: 24px; margin-bottom: -12px;">When, if not now?</p>
-                <p>Sign up to our free newsletter, to receive tips and tricks about fitness.</p>
+                <p style="color:#e5e7eb;">Sign up to our free newsletter, to receive tips and tricks about fitness.</p>
             </div>
 
             <button class="signup-btn">Sign up</button>
@@ -78,5 +78,19 @@
     <div class="footer">
         <p>Gymbro Corporation 2022</p>
     </div>
+
+    <script>
+        let icons = document.getElementsByClassName('icon')
+        let logoImg = document.getElementsByClassName('logo').item(0).children.item(0)
+
+        logoImg.style.cursor = 'pointer'
+        logoImg.addEventListener('click', () => window.location.href = 'https://www.flaticon.com/')
+        
+        for (let icon of icons) {
+            icon.onclick = () => {
+                window.location.href = 'https://www.flaticon.com/'
+            }
+        }
+    </script>
 </body>
 </html>

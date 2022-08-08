@@ -1,5 +1,5 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
 }
@@ -10,15 +10,16 @@ a {
 }
 
 .icon {
-    width: 64px;
+    width: 72px;
     height: auto;
     margin: auto;
     flex: 0 1 auto;
+    cursor: pointer;
 }
 
 .icon-wrapper {
-    height: 72px;
-    width: 72px;
+    height: 94px;
+    width: 94px;
     display: flex;
     border: 3px solid #3882f6;
     border-radius: 10px;
@@ -30,17 +31,28 @@ a {
     column-gap: 32px;
 }
 
+.icons p {
+    font-size: 12px;
+}
+
 .content-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 64px;
+}
+
+.content-container h3 {
+    font-size: 24px;
+    font-weight: extra-bold;
+    margin-bottom: 32px;
 }
 
 .product-container {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    width: 88px;
+    width: 110px;
 }
 
 .quote-container {
