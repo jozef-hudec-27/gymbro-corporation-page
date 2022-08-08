@@ -4,6 +4,11 @@ body {
     flex-direction: column;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 .icon {
     width: 64px;
     height: auto;
@@ -62,7 +67,12 @@ body {
     border-radius: 8px;
 }
 
-.signup-btn {
+.main button {
+    border: 0px;
+    font-weight: bold;
+}
+
+button {
     background-color: #3882f6;
     color: white;
     border: 2px solid white;
@@ -75,4 +85,52 @@ body {
     display: flex;
     color: white;
     justify-content: center;
+}
+
+.top-container {
+    background-color: #1f2937;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 128px 94px 128px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 32px;
+
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.main img {
+    width: 128px;
+}
+
+.logo {
+    background-color: white;
+    border-radius: 50%;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo p {
+    color: black;
+    margin-top: -12px;
+}
+
+.right-links {
+    display: flex;
+    column-gap: 24px;
 }
